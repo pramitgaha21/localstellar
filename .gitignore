@@ -38,8 +38,5 @@ vite.config.ts.timestamp-*
 **/.DS_Store
 
 # generated contract clients
-!packages/.gitkeep
 
 # generated contract client imports
-src/contracts/*
-!src/contracts/util.ts
