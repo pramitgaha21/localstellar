@@ -3,7 +3,7 @@ import { writable } from 'svelte/store';
 
 export type OptionalAddress = string | null;
 
-export const walletAddress = writable<OptionalAddress>("dummy wallet address");
+export const walletAddress = writable<OptionalAddress>(null);
 
 export type OptionalProfile = LoggedProfile | null;
 
