@@ -1,4 +1,5 @@
 <script lang="ts">
+  /*
   import { onMount } from 'svelte';
   import PlaceOrder from '$lib/components/PlaceOrder.svelte';
   import type { OfferDetail } from 'backend';
@@ -28,8 +29,23 @@
   function formatAmount(amount: bigint): string {
     return new Intl.NumberFormat().format(Number(amount));
   }
+  */
 </script>
 
+<main>
+  <div class="progress-box">
+    <p>This site is currently in progress.</p>
+    <a
+      href="https://github.com/pramitgaha21/localstellar.git"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Visit our GitHub repository for code and current state
+    </a>
+  </div>
+</main>
+
+<!-- 
 <main>
   <h1>Offer List</h1>
 
@@ -57,15 +73,41 @@
       </div>
     {/each}
   </div>
-</main>
+  </main>
+-->
 
 <style>
   main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
   }
 
+  .progress-box {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #e8f4fd;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+  }
+  .progress-box p {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #2980b9;
+  }
+  .progress-box a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .progress-box a:hover {
+    text-decoration: underline;
+  }
+
+  /*
   h1 {
     text-align: center;
     margin-bottom: 2rem;
@@ -127,4 +169,5 @@
     cursor: pointer;
     color: #007bff;
   }
+  */
 </style>
