@@ -1,5 +1,10 @@
 # Local Stellar
 
+### Missing/Unimplemented
+1. Frontend
+    * Serving the list of offers to the user
+    * Serving the list of dispute to the moderator
+    * Placing an order
 
 
 ### Buidling and generating `Typescript` Bindings

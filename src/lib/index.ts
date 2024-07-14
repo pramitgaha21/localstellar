@@ -3,9 +3,7 @@ import { Client } from "backend";
 
 
 
-export const BackendContractAddress = 'CB26UXG4TBJU3D63GXWBNKGM3AHWCZHXPMYOZ3WCHA7ZHZRNQU7TNQTU';
-
-
+export const BackendContractAddress = 'CBNW6WIJYHQ5JP5WE3PGZGSD7W5ASYOMUMTJWYXGSGSEQP7QBCVCIY2F'
 export const rpcUrl = 'https://soroban-testnet.stellar.org';
 
 export const stringToSymbol = (value: string) => {
